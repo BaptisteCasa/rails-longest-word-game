@@ -1,0 +1,11 @@
+<h1>Result</h1>
+<p class="lead">
+  Your word: <strong><%= @word %></strong><br>
+  Score for this round: <strong><%= @score %></strong><br>
+  <%= @message %>
+</p>
+
+<h3>Total Score: <%= @total_score %></h3>
+
+<%= link_to "Play again", new_path, class: "btn btn-success" %>
+
